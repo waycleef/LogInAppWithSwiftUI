@@ -27,8 +27,9 @@ struct RegisterView: View {
                     Image(systemName: "checkmark.circle")
                     Text("Ok")
                 }
-                .disabled(name.count >= 3 ? false : true)
+
             }
+            .disabled(name.count >= 3 ? false : true)
         }
     }
     
