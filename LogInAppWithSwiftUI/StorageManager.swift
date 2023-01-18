@@ -6,42 +6,16 @@
 //
 
 import Foundation
+import SwiftUI
+
 
 class StorageManager {
     static let shared = StorageManager()
-    
-    @AppStorge(
-    
-//    private let userDefaults = UserDefaults.standard
-//    private let key = "Key"
-//    private let boolKey = "boolKey"
+
+    @AppStorage("register") var isRegistered = false
+    @AppStorage("name") var name = ""
+
     
     private init () {}
-    
-//    func save(name: String) {
-//        userDefaults.set(name, forKey: key)
-//    }
-//
-//    func save(bool: Bool) {
-//        userDefaults.set(bool, forKey: boolKey)
-//    }
-//
-//    func fetchDataName() -> String {
-//        guard let name = userDefaults.value(forKey: key) as? String else { return ""}
-//        return name
-//    }
-//
-//    func fetchDataBool() -> Bool {
-//        guard let bool = userDefaults.value(forKey: boolKey) as? Bool else { return false }
-//        return bool
-//    }
-//
-//    func deleteName() {
-//        userDefaults.removeObject(forKey: key)
-//    }
-//
-//    func resetBool() {
-//        userDefaults.removeObject(forKey: boolKey)
-//    }
-//
+
 }

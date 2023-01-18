@@ -31,8 +31,8 @@ struct ContentView: View {
 
             Button(action: {
                 userManager.isRegistered.toggle()
-                StorageManager.shared.deleteName()
-                StorageManager.shared.resetBool()
+                StorageManager.shared.name = ""
+                StorageManager.shared.isRegistered = false
             }) {
                 Text("Log Out")
                 .font(.title)

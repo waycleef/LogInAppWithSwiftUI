@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RegisterView: View {
-    @State private var name = StorageManager.shared.fetchDataName()
+    @State private var name = StorageManager.shared.name
     @EnvironmentObject private var userManger: UserManager
     
     var body: some View {
@@ -27,8 +27,8 @@ struct RegisterView: View {
                     Image(systemName: "checkmark.circle")
                     Text("Ok")
                 }
-                .disabled(name.count >= 3 ? false : true)
             }
+            .disabled(name.count >= 3 ? false : true)
         }
     }
     
@@ -36,8 +36,8 @@ struct RegisterView: View {
         if !name.isEmpty, name.count > 2 {
             userManger.name = name
             userManger.isRegistered.toggle()
-            StorageManager.shared.save(bool: userManger.isRegistered)
-            StorageManager.shared.save(name: userManger.name)
+            StorageManager.shared.name = name
+            StorageManager.shared.isRegistered = userManger.isRegistered
         }
     }
 }

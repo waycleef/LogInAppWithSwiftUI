@@ -16,7 +16,6 @@
 		5FE9444329772237002C5085 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9444229772237002C5085 /* UserManager.swift */; };
 		5FE9444529772271002C5085 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9444429772271002C5085 /* TimeCounter.swift */; };
 		5FE9444929781357002C5085 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9444829781357002C5085 /* StorageManager.swift */; };
-		5FE9444B297815DD002C5085 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9444A297815DD002C5085 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		5FE9444229772237002C5085 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		5FE9444429772271002C5085 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		5FE9444829781357002C5085 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
-		5FE9444A297815DD002C5085 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 				5FE9443E297721B8002C5085 /* StarterView.swift */,
 				5FE9444229772237002C5085 /* UserManager.swift */,
 				5FE9444429772271002C5085 /* TimeCounter.swift */,
-				5FE9444A297815DD002C5085 /* Test.swift */,
 				5FE9443229771F07002C5085 /* Assets.xcassets */,
 				5FE9443429771F07002C5085 /* Preview Content */,
 			);
@@ -160,7 +157,6 @@
 				5FE9443129771F06002C5085 /* ContentView.swift in Sources */,
 				5FE9444929781357002C5085 /* StorageManager.swift in Sources */,
 				5FE9444529772271002C5085 /* TimeCounter.swift in Sources */,
-				5FE9444B297815DD002C5085 /* Test.swift in Sources */,
 				5FE9444329772237002C5085 /* UserManager.swift in Sources */,
 				5FE9442F29771F06002C5085 /* LogInAppWithSwiftUIApp.swift in Sources */,
 			);
