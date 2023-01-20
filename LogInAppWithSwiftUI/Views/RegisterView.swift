@@ -50,11 +50,10 @@ struct UserNameTF: View {
                     .font(.callout)
                     .foregroundColor(nameIsValid ? .green : .red)
                     .padding([.top, .trailing])
-                
             }
-            
+            .padding(.bottom)
         }
-        .padding()
+        
     }
 }
 
